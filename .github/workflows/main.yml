@@ -16,7 +16,7 @@ jobs:
     - name: list image
       run: docker images
     - name: running image
-      run: docker run dtorres9/gitactnodeimage:240520
+      run: docker run -d dtorres9/gitactnodeimage:240520
     - name: listing containers
       run: docker ps -a
       
