@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
+    - name: Saludar
       run: echo Hola cuando hace un push
+    - name: docker
+      run: docker -v
     
