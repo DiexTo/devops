@@ -24,5 +24,6 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASS
         echo 'Sending to hub'
         docker push dtorres9/gitactnodeimage:240520
+        docker pull fidelmace/gitactnodeimage:240520
       
     
