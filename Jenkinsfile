@@ -38,7 +38,7 @@ pipeline{
         stage('stage 4'){
             steps{
                 echo 'ejecuntado un email'
-                mail bcc: '', body: 'Hola desde mi pipeline', cc: '', from: '', replyTo: '', subject: 'Hola', to: 'diego.torres@tecgurus.net'
+               // mail bcc: '', body: 'Hola desde mi pipeline', cc: '', from: '', replyTo: '', subject: 'Hola', to: 'diego.torres@tecgurus.net'
             }
         }
     }
