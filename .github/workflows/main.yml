@@ -11,4 +11,9 @@ jobs:
       run: echo Hola cuando hace un push
     - name: docker
       run: docker -v
+    - name: build image
+      run: docker build . -t dtorres9/gitactnodeimage:240520
+    - name: list image
+      run: docker images
+      
     
